@@ -118,43 +118,6 @@ input[type=text] {
     font-weight: 700;
     
 }
-/* p{
-    color:dimgray;
-} */
-.dream-area{
-  
-    background-image: url("images/1.webp");
-    background-repeat: no-repeat;
-    
-    
-}
-h2{
-    font-size: 40px;
-}
-.experience-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-.experience-area h3{
-    color: orange;
-}
-
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
-}
-#full-stack{
-    border-left: 9px solid tomato;
-    border-radius: 5px;
-}
-#baby-web{
-    border-left: 9px solid;
-    border-image: linear-gradient(to top, rgba(255,0,0,0.1), rgba(255,165,0,0.8));    
-    border-image-slice: 1;
-    border-radius: 5px;
-}
-
 
 .nav-section{
     height:50px;
