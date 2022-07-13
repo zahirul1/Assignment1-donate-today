@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(110, 99, 99);
+}
+
+section{
+    height: 500px;
+    margin-bottom: 80px;
+    /* padding-bottom: 150px; */
+    
+}
+.top-banner{
+
+
+    background-image: url(images/donation7.jpg);
+    /* opacity: .5;   */
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+.top-banner div, .body-1 div, .body-2 div, .body-3 div{
+  
+    width: 80%;
+    margin:auto;
+   
+}
+
+.top-banner div p, .body-1 div p, .body-2 div p, .body-3 div p{
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+    font-weight: 900;
+}
+
+.top-banner div p a, .body-1 div p a{
+    font-size:medium;
+    
+}
+.body-1 div p span {
+    display: inline-block;
+    
+    font-size: 40px;
+    padding-top: 50px;
+    height: 100px;
+    width: 155px; 
+    font-weight: 900;
+    background-color:aliceblue;
+    text-align: center;
+}
+
+.body-2 div .body-2-box {
+    display:inline-flex;
+    margin: 3px;
+    font-size:medium;
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 200px;
+    width: 31%; 
+    font-weight: 900;
+    background-color:orange ;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+#body-2-box-color1{
+    background-color: aquamarine;
+}
+
+#body-2-box-color2{
+    background-color: rgb(197, 197, 205);
+}
+.body-1 div p span:hover {
+    border: 3px solid orange;
+    color: black;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    border: none;
+    border-bottom: 2px solid orange;
+    
+  }
+
+  input[type=submit] {
+  
+    
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border: none;
+    
+  }
+
+#make-small{
+    
+    font-size: small;
+  
+}
+
+.body-2 div p{
+    color:black;
+}
+
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+/* p{
+    color:dimgray;
+} */
+.dream-area{
+  
+    background-image: url("images/1.webp");
+    background-repeat: no-repeat;
+    
+    
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area h3{
+    color: orange;
+}
+
+.experience-area div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+}
+#full-stack{
+    border-left: 9px solid tomato;
+    border-radius: 5px;
+}
+#baby-web{
+    border-left: 9px solid;
+    border-image: linear-gradient(to top, rgba(255,0,0,0.1), rgba(255,165,0,0.8));    
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+
+.nav-section{
+    height:50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,165,0,1));
+    
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    
+}
+.nav-section p {
+    float: left;
+    font-weight: 900;
+    padding-left: 5%;
+    width: 15%;
+    text-decoration: none;
+}
+
+.nav-section p a{
+    text-decoration: none;
+}
+
+footer p{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    color: brown;
+}
+
+
+
+footer {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 250px 0 250px 0;
+}
